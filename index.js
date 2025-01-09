@@ -12,7 +12,7 @@ const SENDCLOUD_API_USER = process.env.SENDCLOUD_API_USER;
 const SENDCLOUD_API_KEY = process.env.SENDCLOUD_API_KEY;
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL;
 
-app.get('/proxy', async (req, res) => {
+app.get('/taobao', async (req, res) => {
   try {
     const clientIp = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
 
