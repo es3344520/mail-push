@@ -27,7 +27,7 @@ app.get('/taobao', async (req, res) => {
     const sendMailResponse = await axios.post('https://api.sendcloud.net/apiv2/mail/send', querystring.stringify({
       apiUser: SENDCLOUD_API_USER,
       apiKey: SENDCLOUD_API_KEY,
-      from: 'no-reply@yourdomain.com',
+      from: 'SendCloud@eixcst.sendcloud.org',
       to: ADMIN_EMAIL,
       subject: '新用户访问通知',
       html: emailContent
