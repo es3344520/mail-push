@@ -1,0 +1,14 @@
+{
+  "name": "my-render-app",
+  "version": "1.0.0",
+  "description": "A simple Express app for forwarding requests and sending emails.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "querystring": "^0.2.0"
+  }
+}
