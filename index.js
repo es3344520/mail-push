@@ -42,7 +42,6 @@ app.get('/proxy', async (req, res) => {
   }
 });
 
-// 启动服务器
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`服务器正在运行在端口 ${PORT}`);
